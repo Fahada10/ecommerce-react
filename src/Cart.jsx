@@ -34,7 +34,7 @@ function Cart() {
       )}
       {cart.map((c) => (
         <div className="cart-products-details" key={c.id}>
-          <div style={{display : "flex",flexWrap:"wrap", gap : "15px"}}>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "15px" }}>
             <div className="cart-img-div">
               <img src={c.images[0]} alt="product" className="cart-imgs" />
             </div>
